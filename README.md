@@ -11,7 +11,6 @@ Configure **swu_checkserver.ps1**
 ```ps1
 # Parameters ###################
 $script_folder = "C:\Rust"          #Your script_folder
-$oxide_folder = "C:\Rust\oxide"     #To update config/OxideUpdateChecker.json
 $check_interval = 300               #Interval to check server in seconds
 ################################
 ```
@@ -38,7 +37,6 @@ $server_url = ""                    #Sets the server 'Webpage'
 # Parameters ###################
 $install_folder = "C:\Rust"         #Your install directory
 $steam_folder = "C:\Rust\steamcmd"  #Your steamcmd folder
-$oxide_folder = "C:\Rust\oxide"     #To update config/OxideUpdateChecker.json
 $token = ""                         #Token Github (not required)
 ################################
 ```
