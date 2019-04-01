@@ -20,7 +20,7 @@ $steam_folder = "C:\Rust\steamcmd"  #Your steamcmd folder
 $token = ""                         #Token Github (not required)
 ################################
 
-$host.ui.RawUI.WindowTitle = "swrStartServer"
+$host.ui.RawUI.WindowTitle = "SwuStartServer"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Write-Host "##############################################################"
 Write-Host "                       Mise a jour Rust"

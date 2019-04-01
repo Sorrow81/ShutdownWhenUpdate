@@ -3,9 +3,9 @@ $script_folder = "C:\Rust"          #Your script_folder
 $check_interval = 300               #Interval to check server in seconds
 ################################
 
-$host.ui.RawUI.WindowTitle = "swrCheckServer"
+$host.ui.RawUI.WindowTitle = "SwuCheckServer"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$ProcessNameToCheck = @("RustDedicated", "swrStartServer")
+$ProcessNameToCheck = @("RustDedicated", "SwuStartServer")
 while ($TRUE){
 	Write-Host "Check RustDedicated is running..."
 	$RustDedicatedIsRunning = Get-Process -Name $ProcessNameToCheck[0] -ErrorAction SilentlyContinue
