@@ -13,7 +13,7 @@ while ($TRUE){
 	if (!$RustDedicatedIsRunning -and !$StartServerIsRunning) {
 		Write-Host "RustDedicated KO..."
 		Write-Host "Start server"
-		$argList = "-file `"$($script_folder)\swr_startserver.ps1`""
+		$argList = "-file `"$($script_folder)\swu_startserver.ps1`""
 		Start-Process powershell -ArgumentList $argList
 	} else {
 		Write-Host "RustDedicated OK"
